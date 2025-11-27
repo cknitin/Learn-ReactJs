@@ -28,5 +28,7 @@
       ReactDOM.createRoot(container).render('Welcome to SuperSimpleDev React Course');
     </script>
   </body>
-</html> ```
+</html> 
+
+```
 
