@@ -140,3 +140,37 @@ https://unpkg.com/supersimpledev@8.6.4/external-library.js
 </html> 
 
 ```
+
+## Questions
+
+Why are there 2 external libraries for React
+
+```
+<script src="https://unpkg.com/supersimpledev/react.js"></script>
+<script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+```
+
+## Answer
+
+React can be use for two different places 
+1. Websites
+2. Mobile Apps
+
+react.js  <======= This file contains shared features
+react-dom.js <==== This contains features specific to website
+
+this loads React and ReactDOM 
+
+---------------------------
+
+For Mobile Apps
+
+= Loads React and ReactNative
+
+
+ 
+
+
+
+   
+
