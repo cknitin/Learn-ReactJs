@@ -111,5 +111,32 @@ Add below code in it
 
 ```
 
+## How to add code using external javascript library
 
+Add this library
 
+https://unpkg.com/supersimpledev@8.6.4/external-library.js
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Basics</title>
+  </head>
+  <body>
+    <div class="js-container"></div>
+
+    <script src=["react-basics.js](https://unpkg.com/supersimpledev@8.6.4/external-library.js)"></script>    <=========================
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel">
+      const container = document.querySelector('.js-container');
+      ReactDOM.createRoot(container).render('Welcome to SuperSimpleDev React Course');
+    </script>
+  </body>
+</html> 
+
+```
