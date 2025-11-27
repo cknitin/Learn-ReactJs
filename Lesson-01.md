@@ -59,7 +59,7 @@ in be this html
     <div class="js-container"></div>
 
     <script>
-        console.log('Hello React')
+        console.log('Hello React')    <=========================
     </script>
 
     <script src="https://unpkg.com/supersimpledev/react.js"></script>
@@ -74,4 +74,42 @@ in be this html
 </html> 
 
 ```
+
+## How to Add javascript code using external file 
+
+create a javascript file named - react-basics.js
+
+Add below code in it
+
+```
+ <script>
+        console.log('Hello React')
+ </script>
+```
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Basics</title>
+  </head>
+  <body>
+    <div class="js-container"></div>
+
+    <script src="react-basics.js"></script>    <=========================
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel">
+      const container = document.querySelector('.js-container');
+      ReactDOM.createRoot(container).render('Welcome to SuperSimpleDev React Course');
+    </script>
+  </body>
+</html> 
+
+```
+
+
 
