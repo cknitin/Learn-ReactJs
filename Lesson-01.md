@@ -10,7 +10,7 @@
 
     https://supersimple.dev/react-basics
 
-``
+`
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,5 +30,5 @@
   </body>
 </html>
 
-``
+`
 
