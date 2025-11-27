@@ -1,5 +1,9 @@
 # React Basic, JSX
 
+What is React?
+React is a JavaScript library for building user interfaces (UIs), specifically for single-page applications (SPAs) where you need a fast, interactive, and dynamic web experience.
+
+
 ## Steps
 
 1. Create a folder
